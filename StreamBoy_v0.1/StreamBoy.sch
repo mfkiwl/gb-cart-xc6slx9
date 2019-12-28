@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -61,5 +61,11 @@ S 4800 2600 750  550
 U 5E087685
 F0 "Headers" 50
 F1 "Headers.sch" 50
+$EndSheet
+$Sheet
+S 1150 3500 550  550 
+U 5E07E0B7
+F0 "USB" 50
+F1 "USB.sch" 50
 $EndSheet
 $EndSCHEMATC
