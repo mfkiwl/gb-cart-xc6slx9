@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LSF0204PWR
+#
+DEF LSF0204PWR U 0 40 Y Y 1 L N
+F0 "U" -401 641 50 H V L BNN
+F1 "LSF0204PWR" -402 -660 50 H V L BNN
+F2 "SOP65P640X120-14N" 0 0 50 H I L BNN
+F3 "Good" 0 0 50 H I L BNN
+F4 "4-Bit Bidirectional Multi-Voltage Level Translator for Open-Drain & Push- Pull 14-TSSOP -40 to 125" 0 0 50 H I L BNN
+F5 "TSSOP-14 Texas Instruments" 0 0 50 H I L BNN
+F6 "Texas Instruments" 0 0 50 H I L BNN
+F7 "0.65 USD" 0 0 50 H I L BNN
+F8 "LSF0204PWR" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -400 600 400 600 N
+P 2 0 0 16 400 600 400 -500 N
+P 2 0 0 16 400 -500 -400 -500 N
+P 2 0 0 16 -400 -500 -400 600 N
+X EN 8 -600 300 200 R 40 40 0 0 I 
+X VREF_B 14 600 400 200 L 40 40 0 0 W 
+X A1 2 -600 100 200 R 40 40 0 0 B 
+X A2 3 -600 0 200 R 40 40 0 0 B 
+X A3 4 -600 -100 200 R 40 40 0 0 B 
+X A4 5 -600 -200 200 R 40 40 0 0 B 
+X B1 13 600 100 200 L 40 40 0 0 B 
+X VREF_A 1 600 500 200 L 40 40 0 0 W 
+X B2 12 600 0 200 L 40 40 0 0 B 
+X B3 11 600 -100 200 L 40 40 0 0 B 
+X B4 10 600 -200 200 L 40 40 0 0 B 
+X GND 7 600 -400 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
