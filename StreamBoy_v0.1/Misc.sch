@@ -265,40 +265,82 @@ F 9 "TF-015" H 6600 4000 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscillator:SG-7050CBN X?
+L Oscillator:SG-7050CBN X1
 U 1 1 5E0DA99D
-P 8150 4850
-F 0 "X?" H 8494 4896 50  0000 L CNN
-F 1 "SG-7050CBN" H 8494 4805 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm" H 8850 4500 50  0001 C CNN
-F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG7050CBN&lang=en" H 8050 4850 50  0001 C CNN
-	1    8150 4850
+P 9850 5750
+F 0 "X1" H 10000 5500 50  0000 L CNN
+F 1 "SG-7050CBN" H 10000 5400 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm" H 10550 5400 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG7050CBN&lang=en" H 9750 5750 50  0001 C CNN
+	1    9850 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5E0DB62B
-P 9450 4900
+P 9850 5150
 AR Path="/5E0FF68C/5E0DB62B" Ref="C?"  Part="1" 
-AR Path="/5E07E0B7/5E0DB62B" Ref="C?"  Part="1" 
-F 0 "C?" H 9565 4946 50  0000 L CNN
-F 1 "C" H 9565 4855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9488 4750 50  0001 C CNN
-F 3 "~" H 9450 4900 50  0001 C CNN
-	1    9450 4900
+AR Path="/5E07E0B7/5E0DB62B" Ref="C1"  Part="1" 
+F 0 "C1" H 9965 5196 50  0000 L CNN
+F 1 "0.1uF" H 9965 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9888 5000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Shenzhen-SCTF-Elec-S7D50-000000A20F30T_C387131.pdf" H 9850 5150 50  0001 C CNN
+	1    9850 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 5E0DB631
-P 9800 4900
-AR Path="/5E0FF68C/5E0DB631" Ref="C?"  Part="1" 
-AR Path="/5E07E0B7/5E0DB631" Ref="C?"  Part="1" 
-F 0 "C?" H 9915 4946 50  0000 L CNN
-F 1 "C" H 9915 4855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9838 4750 50  0001 C CNN
-F 3 "~" H 9800 4900 50  0001 C CNN
-	1    9800 4900
+U 1 1 5E0F5C50
+P 10450 5750
+AR Path="/5E0FF68C/5E0F5C50" Ref="C?"  Part="1" 
+AR Path="/5E07E0B7/5E0F5C50" Ref="C2"  Part="1" 
+F 0 "C2" H 10565 5796 50  0000 L CNN
+F 1 "15pF" H 10565 5705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10488 5600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Shenzhen-SCTF-Elec-S7D50-000000A20F30T_C387131.pdf" H 10450 5750 50  0001 C CNN
+	1    10450 5750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9850 5000 1    50   Input ~ 0
+VCC3
+Wire Wire Line
+	10150 5750 10300 5750
+Wire Wire Line
+	10300 5750 10300 5450
+Connection ~ 10300 5750
+Text GLabel 10300 5450 1    50   Input ~ 0
+FPGA_CLK_50M
+$Comp
+L power:GND #PWR?
+U 1 1 5E0FED92
+P 10600 5750
+F 0 "#PWR?" H 10600 5500 50  0001 C CNN
+F 1 "GND" V 10605 5622 50  0000 R CNN
+F 2 "" H 10600 5750 50  0001 C CNN
+F 3 "" H 10600 5750 50  0001 C CNN
+	1    10600 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 5300 9850 5450
+Wire Wire Line
+	9850 5450 9550 5450
+Wire Wire Line
+	9550 5450 9550 5750
+Connection ~ 9850 5450
+$Comp
+L power:GND #PWR?
+U 1 1 5E100DF1
+P 9850 6050
+F 0 "#PWR?" H 9850 5800 50  0001 C CNN
+F 1 "GND" H 9855 5877 50  0000 C CNN
+F 2 "" H 9850 6050 50  0001 C CNN
+F 3 "" H 9850 6050 50  0001 C CNN
+	1    9850 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3250 4300 3100 4300
+Text GLabel 3250 4300 2    50   Input ~ 0
+USB5V
 $EndSCHEMATC
