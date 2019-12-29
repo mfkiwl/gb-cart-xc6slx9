@@ -146,8 +146,6 @@ Text GLabel 3250 4350 2    50   Input ~ 0
 GB_VIN
 Text GLabel 3250 1550 2    50   Input ~ 0
 GB_WR
-Text GLabel 3250 1350 2    50   Input ~ 0
-VCC5
 Text GLabel 3250 1450 2    50   Input ~ 0
 GB_CLK
 Text GLabel 3250 4450 2    50   Input ~ 0
@@ -1076,4 +1074,17 @@ Text GLabel 1450 6000 0    50   Input ~ 0
 VCC3
 Text GLabel 3850 6050 0    50   Input ~ 0
 VCC3
+$Comp
+L Device:D D3
+U 1 1 5E09B24F
+P 3400 1350
+F 0 "D3" H 3400 1134 50  0000 C CNN
+F 1 "D" H 3400 1225 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3400 1350 50  0001 C CNN
+F 3 "~" H 3400 1350 50  0001 C CNN
+	1    3400 1350
+	-1   0    0    1   
+$EndComp
+Text GLabel 3550 1350 2    50   Input ~ 0
+VCC5
 $EndSCHEMATC

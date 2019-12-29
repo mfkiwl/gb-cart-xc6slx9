@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SS8050-G
+#
+DEF SS8050-G Q 0 40 Y N 1 L N
+F0 "Q" 550 50 50 H V L BNN
+F1 "SS8050-G" 550 -50 50 H V L BNN
+F2 "SOT95P240X115-3N" 0 0 50 H I L BNN
+F3 "1.15mm" 0 0 50 H I L BNN
+F4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" 0 0 50 H I L BNN
+F5 "Comchip Technology" 0 0 50 H I L BNN
+F6 "" 0 0 50 H I L BNN
+F7 "" 0 0 50 H I L BNN
+F8 "SS8050-G" 0 0 50 H I L BNN
+DRAW
+C 350 0 158 0 0 10 N
+P 2 0 0 20 300 100 300 50 N
+P 2 0 0 20 300 50 300 0 N
+P 2 0 0 20 300 0 300 -50 N
+P 2 0 0 20 300 -50 300 -100 N
+P 2 0 0 10 300 50 400 150 N
+P 2 0 0 10 300 -50 400 -150 N
+P 2 0 0 10 400 -150 400 -200 N
+P 2 0 0 10 400 150 400 200 N
+P 2 0 0 10 100 0 300 0 N
+P 3 0 0 10 330 -100 350 -80 370 -120 F
+X B 1 0 0 100 R 40 40 0 0 B 
+X C 3 400 300 100 D 40 40 0 0 B 
+X E 2 400 -300 100 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
