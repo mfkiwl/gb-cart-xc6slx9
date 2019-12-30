@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:StreamBoy-cache
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -786,4 +787,18 @@ Text GLabel 5500 8100 2    50   Input ~ 0
 VCC3
 Text GLabel 5500 8600 2    50   Input ~ 0
 VCC3
+Text GLabel 2450 3550 0    50   Input ~ 0
+ESP_I2C_SDA
+Text GLabel 2450 3650 0    50   Input ~ 0
+ESP_I2C_SCL
+Text GLabel 2450 2650 0    50   Input ~ 0
+ESP_FPGA_SCLK
+Text GLabel 2450 2750 0    50   Input ~ 0
+ESP_FPGA_MOSI
+Text GLabel 2450 2850 0    50   Input ~ 0
+ESP_FPGA_MISO
+Text Notes 1850 2550 0    50   ~ 0
+Move these!
+Text Notes 1900 3450 0    50   ~ 0
+Move these!
 $EndSCHEMATC
