@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:StreamBoy-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -29,60 +30,60 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 JPOWER3V?
 U 1 1 5E0943CE
-P 7500 2350
+P 7500 2200
 AR Path="/5E0943CE" Ref="JPOWER3V?"  Part="1" 
 AR Path="/5E087685/5E0943CE" Ref="JPOWER3V1"  Part="1" 
-F 0 "JPOWER3V1" H 7580 2342 50  0000 L CNN
-F 1 "Conn_01x02" H 7580 2251 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7500 2350 50  0001 C CNN
-F 3 "~" H 7500 2350 50  0001 C CNN
-	1    7500 2350
+F 0 "JPOWER3V1" H 7580 2192 50  0000 L CNN
+F 1 "Conn_01x02" H 7580 2101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7500 2200 50  0001 C CNN
+F 3 "~" H 7500 2200 50  0001 C CNN
+	1    7500 2200
 	1    0    0    -1  
 $EndComp
 Text GLabel 7100 1950 0    50   Input ~ 0
 VCC5
-Text GLabel 7100 2350 0    50   Input ~ 0
+Text GLabel 7100 2200 0    50   Input ~ 0
 VCC3
 Text GLabel 7100 2050 0    50   Input ~ 0
 GND
-Text GLabel 7100 2450 0    50   Input ~ 0
+Text GLabel 7100 2300 0    50   Input ~ 0
 GND
 Wire Wire Line
 	7300 1950 7100 1950
 Wire Wire Line
 	7100 2050 7300 2050
 Wire Wire Line
-	7300 2350 7100 2350
+	7300 2200 7100 2200
 Wire Wire Line
-	7100 2450 7300 2450
+	7100 2300 7300 2300
 $Comp
 L Connector_Generic:Conn_01x04 JUART?
 U 1 1 5E0943DC
-P 7400 3850
+P 7500 3800
 AR Path="/5E0943DC" Ref="JUART?"  Part="1" 
 AR Path="/5E087685/5E0943DC" Ref="JUART1"  Part="1" 
-F 0 "JUART1" H 7480 3842 50  0000 L CNN
-F 1 "Conn_01x04" H 7480 3751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7400 3850 50  0001 C CNN
-F 3 "~" H 7400 3850 50  0001 C CNN
-	1    7400 3850
+F 0 "JUART1" H 7580 3792 50  0000 L CNN
+F 1 "Conn_01x04" H 7580 3701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7500 3800 50  0001 C CNN
+F 3 "~" H 7500 3800 50  0001 C CNN
+	1    7500 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 7100 3650 1    50   Input ~ 0
+Text GLabel 7200 3600 1    50   Input ~ 0
 VCC3
-Text GLabel 7050 4250 3    50   Input ~ 0
+Text GLabel 7150 4200 3    50   Input ~ 0
 GND
 $Comp
 L power:GND #PWR?
 U 1 1 5E0943E4
-P 7150 4250
+P 7250 4200
 AR Path="/5E0943E4" Ref="#PWR?"  Part="1" 
 AR Path="/5E087685/5E0943E4" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 7150 4000 50  0001 C CNN
-F 1 "GND" H 7155 4077 50  0000 C CNN
-F 2 "" H 7150 4250 50  0001 C CNN
-F 3 "" H 7150 4250 50  0001 C CNN
-	1    7150 4250
+F 0 "#PWR0104" H 7250 3950 50  0001 C CNN
+F 1 "GND" H 7255 4027 50  0000 C CNN
+F 2 "" H 7250 4200 50  0001 C CNN
+F 3 "" H 7250 4200 50  0001 C CNN
+	1    7250 4200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -98,35 +99,27 @@ F 3 "~" H 7500 3000 50  0001 C CNN
 	1    7500 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 7300 2900 0    50   Input ~ 0
-ESP_MTMS
-Text GLabel 7300 3000 0    50   Input ~ 0
-ESP_MTDI
-Text GLabel 7300 3100 0    50   Input ~ 0
-ESP_MTCK
-Text GLabel 7300 3200 0    50   Input ~ 0
-ESP_MTDO
-Text GLabel 7100 3950 0    50   Input ~ 0
+Text GLabel 7200 3900 0    50   Input ~ 0
 ESP_RX
-Text GLabel 7100 3850 0    50   Input ~ 0
+Text GLabel 7200 3800 0    50   Input ~ 0
 ESP_TX
 Wire Wire Line
-	7200 3950 7100 3950
+	7300 3900 7200 3900
 Wire Wire Line
-	7100 3850 7200 3850
+	7200 3800 7300 3800
 Wire Wire Line
-	7200 4050 7150 4050
+	7300 4000 7250 4000
 Wire Wire Line
-	7050 4050 7050 4250
+	7150 4000 7150 4200
 Wire Wire Line
-	7150 4250 7150 4050
-Connection ~ 7150 4050
+	7250 4200 7250 4000
+Connection ~ 7250 4000
 Wire Wire Line
-	7150 4050 7050 4050
+	7250 4000 7150 4000
 Wire Wire Line
-	7200 3750 7100 3750
+	7300 3700 7200 3700
 Wire Wire Line
-	7100 3750 7100 3650
+	7200 3700 7200 3600
 $Comp
 L Device:R R?
 U 1 1 5E0943FF
@@ -173,22 +166,107 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 JDAC?
 U 1 1 5E094414
-P 7050 1550
+P 7500 1500
 AR Path="/5E094414" Ref="JDAC?"  Part="1" 
 AR Path="/5E087685/5E094414" Ref="JDAC1"  Part="1" 
-F 0 "JDAC1" V 7016 1362 50  0000 R CNN
-F 1 "Conn_01x02" V 6925 1362 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7050 1550 50  0001 C CNN
-F 3 "~" H 7050 1550 50  0001 C CNN
-	1    7050 1550
-	-1   0    0    1   
+F 0 "JDAC1" H 7600 1500 50  0000 L CNN
+F 1 "Conn_01x02" H 7600 1400 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7500 1500 50  0001 C CNN
+F 3 "~" H 7500 1500 50  0001 C CNN
+	1    7500 1500
+	1    0    0    -1  
 $EndComp
-Text GLabel 7400 1550 2    50   Input ~ 0
+Text GLabel 7150 1500 0    50   Input ~ 0
 ESP_DAC1
-Text GLabel 7400 1450 2    50   Input ~ 0
-ESP_DAC2
 Wire Wire Line
-	7400 1450 7250 1450
+	7150 1600 7300 1600
 Wire Wire Line
-	7250 1550 7400 1550
+	7300 1500 7150 1500
+Text GLabel 9250 3450 2    50   Input ~ 0
+ESP_GB_RESET
+Text GLabel 7300 2900 0    50   Input ~ 0
+ESP_JTAG_MTMS
+Text GLabel 7300 3000 0    50   Input ~ 0
+ESP_JTAG_MTDI
+Text GLabel 7300 3100 0    50   Input ~ 0
+ESP_JTAG_MTCK
+Text GLabel 7300 3200 0    50   Input ~ 0
+ESP_JTAG_MTDO
+Text GLabel 7300 5300 0    50   Input ~ 0
+ESP_I2C_SDA
+Text GLabel 7300 5400 0    50   Input ~ 0
+ESP_I2C_SCL
+Text GLabel 4500 2900 2    50   Input ~ 0
+ESP_SD_CS
+Text GLabel 4500 2800 2    50   Input ~ 0
+ESP_SD_DI_MOSI
+Text GLabel 4500 3000 2    50   Input ~ 0
+ESP_SD_DO_MISO
+Text GLabel 7300 4700 0    50   Input ~ 0
+ESP_FPGA_SCLK
+Text GLabel 7300 4800 0    50   Input ~ 0
+ESP_FPGA_MOSI
+Text GLabel 7300 4900 0    50   Input ~ 0
+ESP_FPGA_MISO
+Text GLabel 4500 3150 2    50   Input ~ 0
+ESP_FPGA_SCLK
+Text GLabel 4500 3250 2    50   Input ~ 0
+ESP_FPGA_MOSI
+Text GLabel 4500 3350 2    50   Input ~ 0
+ESP_FPGA_MISO
+Text GLabel 7300 5000 0    50   Input ~ 0
+ESP_FPGA_CS
+Text Notes 9250 3350 0    50   ~ 0
+How do we connect this?
+$Comp
+L Connector_Generic:Conn_01x04 JTAG_ESP?
+U 1 1 5E164B68
+P 7500 4800
+AR Path="/5E164B68" Ref="JTAG_ESP?"  Part="1" 
+AR Path="/5E087685/5E164B68" Ref="JFPGASPI"  Part="1" 
+F 0 "JFPGASPI" H 7580 4792 50  0000 L CNN
+F 1 "Conn_01x04" H 7580 4701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7500 4800 50  0001 C CNN
+F 3 "~" H 7500 4800 50  0001 C CNN
+	1    7500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 JFPGA?
+U 1 1 5E165AC9
+P 7500 5300
+AR Path="/5E165AC9" Ref="JFPGA?"  Part="1" 
+AR Path="/5E087685/5E165AC9" Ref="JFPGAI2C"  Part="1" 
+F 0 "JFPGAI2C" H 7580 5292 50  0000 L CNN
+F 1 "Conn_01x02" H 7580 5201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7500 5300 50  0001 C CNN
+F 3 "~" H 7500 5300 50  0001 C CNN
+	1    7500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 JPOWER3V?
+U 1 1 5E166D37
+P 7500 2450
+AR Path="/5E166D37" Ref="JPOWER3V?"  Part="1" 
+AR Path="/5E087685/5E166D37" Ref="JPOWER1V2"  Part="1" 
+F 0 "JPOWER1V2" H 7580 2442 50  0000 L CNN
+F 1 "Conn_01x02" H 7580 2351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7500 2450 50  0001 C CNN
+F 3 "~" H 7500 2450 50  0001 C CNN
+	1    7500 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7100 2450 0    50   Input ~ 0
+VCC1V2
+Text GLabel 7100 2550 0    50   Input ~ 0
+GND
+Wire Wire Line
+	7300 2450 7100 2450
+Wire Wire Line
+	7100 2550 7300 2550
+Text GLabel 7150 1600 0    50   Input ~ 0
+GND
+Wire Wire Line
+	9250 3450 9050 3450
 $EndSCHEMATC
