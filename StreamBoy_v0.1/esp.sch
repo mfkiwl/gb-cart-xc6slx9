@@ -325,4 +325,22 @@ Wire Wire Line
 Connection ~ 1500 5900
 Wire Wire Line
 	1500 5900 1600 5900
+Text GLabel 3850 3750 2    50   Input ~ 0
+ESP_LED1
+Text GLabel 3850 3650 2    50   Input ~ 0
+ESP_BUTTON2
+Text GLabel 3850 3550 2    50   Input ~ 0
+ESP_BUTTON1
+Text GLabel 3850 3850 2    50   Input ~ 0
+ESP_LED2
+NoConn ~ 3850 3450
+NoConn ~ 3850 3150
+NoConn ~ 3850 3050
+NoConn ~ 3850 2950
+NoConn ~ 3850 2850
+NoConn ~ 3850 2750
+NoConn ~ 3850 2650
+NoConn ~ 2650 2250
+NoConn ~ 2650 2350
+NoConn ~ 2650 2750
 $EndSCHEMATC

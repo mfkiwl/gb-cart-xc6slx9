@@ -724,4 +724,10 @@ Text GLabel 6450 2550 2    50   Input ~ 0
 RAM_D3
 Text Notes 6550 1950 0    50   ~ 0
 Move these!
+Text GLabel 6450 3450 2    50   Input ~ 0
+FPGA_LED1
+Text GLabel 6450 3550 2    50   Input ~ 0
+FPGA_LED2
+Text Notes 6500 3350 0    50   ~ 0
+Move these!
 $EndSCHEMATC
