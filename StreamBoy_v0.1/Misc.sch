@@ -167,110 +167,14 @@ F 3 "" H 4200 2650 50  0001 C CNN
 	1    4200 2650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5E0BF601
-P 8700 1650
-AR Path="/5E0FF68C/5E0BF601" Ref="R?"  Part="1" 
-AR Path="/5E07E0B7/5E0BF601" Ref="R?"  Part="1" 
-F 0 "R?" H 8770 1696 50  0000 L CNN
-F 1 "10K" H 8770 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8630 1650 50  0001 C CNN
-F 3 "~" H 8700 1650 50  0001 C CNN
-	1    8700 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E0BFA7F
-P 8700 2400
-AR Path="/5E0FF68C/5E0BFA7F" Ref="R?"  Part="1" 
-AR Path="/5E07E0B7/5E0BFA7F" Ref="R?"  Part="1" 
-F 0 "R?" H 8770 2446 50  0000 L CNN
-F 1 "10K" H 8770 2355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8630 2400 50  0001 C CNN
-F 3 "~" H 8700 2400 50  0001 C CNN
-	1    8700 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L SS8050-G:SS8050-G Q?
-U 1 1 5E0BFFFE
-P 9100 1650
-F 0 "Q?" H 9638 1696 50  0000 L CNN
-F 1 "SS8050-G" H 9638 1605 50  0000 L CNN
-F 2 "SOT95P240X115-3N" H 9100 1650 50  0001 L BNN
-F 3 "1.15mm" H 9100 1650 50  0001 L BNN
-F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 9100 1650 50  0001 L BNN "Field4"
-F 5 "Comchip Technology" H 9100 1650 50  0001 L BNN "Field5"
-F 6 "" H 9100 1650 50  0001 L BNN "Field6"
-F 7 "" H 9100 1650 50  0001 L BNN "Field7"
-F 8 "SS8050-G" H 9100 1650 50  0001 L BNN "Field8"
-	1    9100 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L SS8050-G:SS8050-G Q?
-U 1 1 5E0C0B15
-P 9100 2400
-F 0 "Q?" H 9638 2446 50  0000 L CNN
-F 1 "SS8050-G" H 9638 2355 50  0000 L CNN
-F 2 "SOT95P240X115-3N" H 9100 2400 50  0001 L BNN
-F 3 "1.15mm" H 9100 2400 50  0001 L BNN
-F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 9100 2400 50  0001 L BNN "Field4"
-F 5 "Comchip Technology" H 9100 2400 50  0001 L BNN "Field5"
-F 6 "" H 9100 2400 50  0001 L BNN "Field6"
-F 7 "" H 9100 2400 50  0001 L BNN "Field7"
-F 8 "SS8050-G" H 9100 2400 50  0001 L BNN "Field8"
-	1    9100 2400
-	1    0    0    1   
-$EndComp
 Text GLabel 3800 1850 2    50   Input ~ 0
 ESP_RTS
-Text GLabel 3800 1950 2    50   Input ~ 0
-ESP_RX
 Text GLabel 3800 2050 2    50   Input ~ 0
+ESP_RX
+Text GLabel 3800 1950 2    50   Input ~ 0
 ESP_TX
 Text GLabel 3800 2250 2    50   Input ~ 0
 ESP_DTR
-Text GLabel 8250 1650 0    50   Input ~ 0
-ESP_DTR
-Text GLabel 8250 2400 0    50   Input ~ 0
-ESP_RTS
-Wire Wire Line
-	8250 1650 8450 1650
-Wire Wire Line
-	8550 2400 8500 2400
-Wire Wire Line
-	9100 2400 8850 2400
-Wire Wire Line
-	8850 1650 9100 1650
-Text GLabel 10300 1250 2    50   Input ~ 0
-ESP_EN
-Text GLabel 10300 2800 2    50   Input ~ 0
-ESP_IO0
-Wire Wire Line
-	10300 1250 9500 1250
-Wire Wire Line
-	9500 1250 9500 1350
-Wire Wire Line
-	10300 2800 9500 2800
-Wire Wire Line
-	9500 2800 9500 2700
-Wire Wire Line
-	9500 1950 8500 1950
-Wire Wire Line
-	8500 1950 8500 2400
-Connection ~ 8500 2400
-Wire Wire Line
-	8500 2400 8250 2400
-Wire Wire Line
-	9500 2100 8450 2100
-Wire Wire Line
-	8450 2100 8450 1650
-Connection ~ 8450 1650
-Wire Wire Line
-	8450 1650 8550 1650
 Text GLabel 2100 1950 0    50   Input ~ 0
 VCC3
 $Comp
@@ -479,4 +383,6 @@ Wire Wire Line
 	1950 2450 1950 2350
 Wire Wire Line
 	1950 2350 2650 2350
+Text Notes 4150 2000 0    50   ~ 0
+Note, RX/TX are flipped
 $EndSCHEMATC

@@ -17,248 +17,344 @@ $EndDescr
 $Comp
 L ESP32-WROVER-I:ESP32-WROVER-I A1
 U 1 1 5E0FC550
-P 5000 3450
-F 0 "A1" H 5000 4817 50  0000 C CNN
-F 1 "ESP32-WROVER-I" H 5000 4726 50  0000 C CNN
-F 2 "ESP32-WROVER-I:XCVR_ESP32-WROVER-I" H 5000 3450 50  0001 L BNN
-F 3 "1904-1008-1-ND" H 5000 3450 50  0001 L BNN
-F 4 "Module: combo; GPIO, I2C x2, I2S x2, SDIO, SPI x3, UART x3; U.FL" H 5000 3450 50  0001 L BNN "Field4"
-F 5 "Module Espressif Systems" H 5000 3450 50  0001 L BNN "Field5"
-F 6 "Espressif Systems" H 5000 3450 50  0001 L BNN "Field6"
-F 7 "https://www.digikey.com/product-detail/en/espressif-systems/ESP32-WROVER-I/1904-1008-1-ND/8544303?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 5000 3450 50  0001 L BNN "Field7"
-F 8 "ESP32-WROVER-I" H 5000 3450 50  0001 L BNN "Field8"
-	1    5000 3450
+P 3250 3150
+F 0 "A1" H 3250 4517 50  0000 C CNN
+F 1 "ESP32-WROVER-I" H 3250 4426 50  0000 C CNN
+F 2 "ESP32-WROVER-I:XCVR_ESP32-WROVER-I" H 3250 3150 50  0001 L BNN
+F 3 "1904-1008-1-ND" H 3250 3150 50  0001 L BNN
+F 4 "Module: combo; GPIO, I2C x2, I2S x2, SDIO, SPI x3, UART x3; U.FL" H 3250 3150 50  0001 L BNN "Field4"
+F 5 "Module Espressif Systems" H 3250 3150 50  0001 L BNN "Field5"
+F 6 "Espressif Systems" H 3250 3150 50  0001 L BNN "Field6"
+F 7 "https://www.digikey.com/product-detail/en/espressif-systems/ESP32-WROVER-I/1904-1008-1-ND/8544303?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 3250 3150 50  0001 L BNN "Field7"
+F 8 "ESP32-WROVER-I" H 3250 3150 50  0001 L BNN "Field8"
+	1    3250 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C32
 U 1 1 5E0D4F10
-P 5800 2500
-F 0 "C?" H 5915 2546 50  0000 L CNN
-F 1 "22uF/10V" H 5915 2455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5838 2350 50  0001 C CNN
-F 3 "~" H 5800 2500 50  0001 C CNN
-	1    5800 2500
+P 4050 2200
+F 0 "C32" H 4165 2246 50  0000 L CNN
+F 1 "22uF/10V" H 4165 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 2050 50  0001 C CNN
+F 3 "~" H 4050 2200 50  0001 C CNN
+	1    4050 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C33
 U 1 1 5E0D4F16
-P 6450 2500
-F 0 "C?" H 6565 2546 50  0000 L CNN
-F 1 "0.1uF/50V" H 6565 2455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 2350 50  0001 C CNN
-F 3 "~" H 6450 2500 50  0001 C CNN
-	1    6450 2500
+P 4700 2200
+F 0 "C33" H 4815 2246 50  0000 L CNN
+F 1 "0.1uF/50V" H 4815 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 2050 50  0001 C CNN
+F 3 "~" H 4700 2200 50  0001 C CNN
+	1    4700 2200
 	1    0    0    -1  
 $EndComp
-Text GLabel 750  1600 2    50   Input ~ 0
+Text GLabel 10050 4800 2    50   Input ~ 0
 ESP_JTAG_MTMS
-Text GLabel 750  1700 2    50   Input ~ 0
+Text GLabel 10050 4900 2    50   Input ~ 0
 ESP_JTAG_MTDI
-Text GLabel 750  1800 2    50   Input ~ 0
+Text GLabel 10050 5000 2    50   Input ~ 0
 ESP_JTAG_MTCK
-Text GLabel 750  1900 2    50   Input ~ 0
+Text GLabel 10050 5100 2    50   Input ~ 0
 ESP_JTAG_MTDO
-Text GLabel 4400 3650 0    50   Input ~ 0
+Text GLabel 2650 3350 0    50   Input ~ 0
 ESP_JTAG_MTDO
-Text GLabel 4400 3450 0    50   Input ~ 0
+Text GLabel 2650 3150 0    50   Input ~ 0
 ESP_JTAG_MTCK
-Text GLabel 4400 3550 0    50   Input ~ 0
+Text GLabel 2650 3250 0    50   Input ~ 0
 ESP_JTAG_MTMS
-Text GLabel 4400 3350 0    50   Input ~ 0
+Text GLabel 2650 3050 0    50   Input ~ 0
 ESP_JTAG_MTDI
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 5E11B439
-P 5700 4700
-F 0 "#PWR?" H 5700 4450 50  0001 C CNN
-F 1 "GND" H 5705 4527 50  0000 C CNN
-F 2 "" H 5700 4700 50  0001 C CNN
-F 3 "" H 5700 4700 50  0001 C CNN
-	1    5700 4700
+P 3950 4400
+F 0 "#PWR0110" H 3950 4150 50  0001 C CNN
+F 1 "GND" H 3955 4227 50  0000 C CNN
+F 2 "" H 3950 4400 50  0001 C CNN
+F 3 "" H 3950 4400 50  0001 C CNN
+	1    3950 4400
 	1    0    0    -1  
 $EndComp
-Text GLabel 4400 4250 0    50   Input ~ 0
+Text GLabel 2650 3950 0    50   Input ~ 0
 ESP_DAC1
-Text GLabel 750  2300 2    50   Input ~ 0
+Text GLabel 10050 5500 2    50   Input ~ 0
 ESP_I2C_SDA
-Text GLabel 750  2400 2    50   Input ~ 0
+Text GLabel 10050 5600 2    50   Input ~ 0
 ESP_I2C_SCL
-Text GLabel 3350 3250 0    50   Input ~ 0
+Text GLabel 1600 2950 0    50   Input ~ 0
 ESP_SD_CS
-Text GLabel 3350 4150 0    50   Input ~ 0
+Text GLabel 1600 3850 0    50   Input ~ 0
 ESP_SD_DI_MOSI
-Text GLabel 3350 3750 0    50   Input ~ 0
+Text GLabel 1600 3450 0    50   Input ~ 0
 ESP_SD_SCLK
-Text GLabel 3350 3900 0    50   Input ~ 0
+Text GLabel 1600 3600 0    50   Input ~ 0
 ESP_SD_DO_MISO
-Text GLabel 750  1000 2    50   Input ~ 0
+Text GLabel 10050 4200 2    50   Input ~ 0
 ESP_SD_CS
-Text GLabel 750  800  2    50   Input ~ 0
+Text GLabel 10050 4000 2    50   Input ~ 0
 ESP_DAC1
-Text GLabel 750  900  2    50   Input ~ 0
+Text GLabel 10050 4100 2    50   Input ~ 0
 ESP_SD_DI_MOSI
-Text GLabel 750  1100 2    50   Input ~ 0
+Text GLabel 10050 4300 2    50   Input ~ 0
 ESP_SD_DO_MISO
-Text GLabel 750  2050 2    50   Input ~ 0
+Text GLabel 10050 5250 2    50   Input ~ 0
 ESP_I2C_SDA
-Text GLabel 750  2150 2    50   Input ~ 0
+Text GLabel 10050 5350 2    50   Input ~ 0
 ESP_I2C_SCL
-Text GLabel 750  2550 2    50   Input ~ 0
+Text GLabel 10050 5750 2    50   Input ~ 0
 ESP_FPGA_SCLK
-Text GLabel 750  2650 2    50   Input ~ 0
+Text GLabel 10050 5850 2    50   Input ~ 0
 ESP_FPGA_MOSI
-Text GLabel 750  2750 2    50   Input ~ 0
+Text GLabel 10050 5950 2    50   Input ~ 0
 ESP_FPGA_MISO
-Text GLabel 750  1250 2    50   Input ~ 0
+Text GLabel 10050 4450 2    50   Input ~ 0
 ESP_FPGA_SCLK
-Text GLabel 750  1350 2    50   Input ~ 0
+Text GLabel 10050 4550 2    50   Input ~ 0
 ESP_FPGA_MOSI
-Text GLabel 750  1450 2    50   Input ~ 0
+Text GLabel 10050 4650 2    50   Input ~ 0
 ESP_FPGA_MISO
-Text GLabel 750  2850 2    50   Input ~ 0
+Text GLabel 10050 6050 2    50   Input ~ 0
 ESP_FPGA_CS
-Text GLabel 5950 4250 2    50   Input ~ 0
+Text GLabel 4200 3950 2    50   Input ~ 0
 ESP_FPGA_CS
-Text GLabel 3350 3650 0    50   Input ~ 0
+Text GLabel 1600 3350 0    50   Input ~ 0
 ESP_FPGA_SCLK
-Text GLabel 3350 4250 0    50   Input ~ 0
+Text GLabel 1600 3950 0    50   Input ~ 0
 ESP_FPGA_MOSI
-Text GLabel 3350 4000 0    50   Input ~ 0
+Text GLabel 1600 3700 0    50   Input ~ 0
 ESP_FPGA_MISO
-Text GLabel 4400 4050 0    50   Input ~ 0
+Text GLabel 2650 3750 0    50   Input ~ 0
 ESP_I2C_SDA
-Text GLabel 4400 3950 0    50   Input ~ 0
+Text GLabel 2650 3650 0    50   Input ~ 0
 ESP_I2C_SCL
-Text GLabel 4400 2950 0    50   Input ~ 0
+Text GLabel 2650 2650 0    50   Input ~ 0
 ESP_IO0
-Text GLabel 4200 1400 1    50   Input ~ 0
+Text GLabel 2450 1100 1    50   Input ~ 0
 ESP_EN
-Text GLabel 5600 3550 2    50   Input ~ 0
+Text GLabel 3850 3250 2    50   Input ~ 0
 ESP_RX
-Text GLabel 5600 3650 2    50   Input ~ 0
+Text GLabel 3850 3350 2    50   Input ~ 0
 ESP_TX
 Wire Wire Line
-	5600 4450 5700 4450
+	3850 4150 3950 4150
 Wire Wire Line
-	5700 4450 5700 4550
+	3950 4150 3950 4250
 Wire Wire Line
-	5600 4550 5700 4550
-Connection ~ 5700 4550
+	3850 4250 3950 4250
+Connection ~ 3950 4250
 Wire Wire Line
-	5700 4550 5700 4700
-Text GLabel 7050 2350 2    50   Input ~ 0
+	3950 4250 3950 4400
+Text GLabel 5300 2050 2    50   Input ~ 0
 VCC3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 5E122569
-P 7050 2650
-F 0 "#PWR?" H 7050 2400 50  0001 C CNN
-F 1 "GND" V 7055 2522 50  0000 R CNN
-F 2 "" H 7050 2650 50  0001 C CNN
-F 3 "" H 7050 2650 50  0001 C CNN
-	1    7050 2650
+P 5300 2350
+F 0 "#PWR0111" H 5300 2100 50  0001 C CNN
+F 1 "GND" V 5305 2222 50  0000 R CNN
+F 2 "" H 5300 2350 50  0001 C CNN
+F 3 "" H 5300 2350 50  0001 C CNN
+	1    5300 2350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7050 2350 6450 2350
-Connection ~ 5800 2350
+	5300 2050 4700 2050
+Connection ~ 4050 2050
 Wire Wire Line
-	5800 2350 5600 2350
-Connection ~ 6450 2350
+	4050 2050 3850 2050
+Connection ~ 4700 2050
 Wire Wire Line
-	6450 2350 5800 2350
+	4700 2050 4050 2050
 Wire Wire Line
-	5800 2650 6450 2650
-Connection ~ 6450 2650
+	4050 2350 4700 2350
+Connection ~ 4700 2350
 Wire Wire Line
-	6450 2650 7050 2650
+	4700 2350 5300 2350
 $Comp
-L Device:C C?
+L Device:C C31
 U 1 1 5E1247D5
-P 4450 1600
-F 0 "C?" H 4565 1646 50  0000 L CNN
-F 1 "0.1uF/50V" H 4565 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4488 1450 50  0001 C CNN
-F 3 "~" H 4450 1600 50  0001 C CNN
-	1    4450 1600
+P 2700 1300
+F 0 "C31" H 2815 1346 50  0000 L CNN
+F 1 "0.1uF/50V" H 2815 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2738 1150 50  0001 C CNN
+F 3 "~" H 2700 1300 50  0001 C CNN
+	1    2700 1300
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E1256D5
-P 3950 1600
+P 2200 1300
 AR Path="/5E0FF68C/5E1256D5" Ref="R?"  Part="1" 
-AR Path="/5E0FBAC6/5E1256D5" Ref="R?"  Part="1" 
-F 0 "R?" H 4020 1646 50  0000 L CNN
-F 1 "10k" H 4020 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3880 1600 50  0001 C CNN
-F 3 "~" H 3950 1600 50  0001 C CNN
-	1    3950 1600
+AR Path="/5E0FBAC6/5E1256D5" Ref="R16"  Part="1" 
+F 0 "R16" H 2270 1346 50  0000 L CNN
+F 1 "10k" H 2270 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2130 1300 50  0001 C CNN
+F 3 "~" H 2200 1300 50  0001 C CNN
+	1    2200 1300
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4100 1600 4200 1600
-Text GLabel 3700 1600 0    50   Input ~ 0
+	2350 1300 2450 1300
+Text GLabel 1950 1300 0    50   Input ~ 0
 VCC3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0112
 U 1 1 5E1261A7
-P 4750 1600
-F 0 "#PWR?" H 4750 1350 50  0001 C CNN
-F 1 "GND" H 4755 1427 50  0000 C CNN
-F 2 "" H 4750 1600 50  0001 C CNN
-F 3 "" H 4750 1600 50  0001 C CNN
-	1    4750 1600
+P 3000 1300
+F 0 "#PWR0112" H 3000 1050 50  0001 C CNN
+F 1 "GND" H 3005 1127 50  0000 C CNN
+F 2 "" H 3000 1300 50  0001 C CNN
+F 3 "" H 3000 1300 50  0001 C CNN
+	1    3000 1300
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4600 1600 4750 1600
+	2850 1300 3000 1300
 Wire Wire Line
-	3800 1600 3700 1600
-Text GLabel 4400 3150 0    50   Input ~ 0
+	2050 1300 1950 1300
+Text GLabel 2650 2850 0    50   Input ~ 0
 ESP_GB_RESET
 Wire Wire Line
-	4400 2750 4200 2750
+	2650 2450 2450 2450
 Wire Wire Line
-	4200 1400 4200 1600
-Connection ~ 4200 1600
+	2450 1100 2450 1300
+Connection ~ 2450 1300
 Wire Wire Line
-	4200 1600 4300 1600
+	2450 1300 2550 1300
 Wire Wire Line
-	4200 1600 4200 2750
+	2450 1300 2450 2450
 Wire Wire Line
-	4400 4150 3650 4150
+	2650 3850 1900 3850
 Wire Wire Line
-	3650 4150 3350 4150
+	1900 3850 1600 3850
 Wire Wire Line
-	3350 4250 3650 4250
+	1600 3950 1900 3950
 Wire Wire Line
-	3650 4250 3650 4150
-Connection ~ 3650 4150
+	1900 3950 1900 3850
+Connection ~ 1900 3850
 Wire Wire Line
-	4400 3850 3650 3850
+	2650 3550 1900 3550
 Wire Wire Line
-	3650 3850 3650 3900
+	1900 3550 1900 3600
 Wire Wire Line
-	3650 4000 3350 4000
+	1900 3700 1600 3700
 Wire Wire Line
-	3350 3900 3650 3900
-Connection ~ 3650 3900
+	1600 3600 1900 3600
+Connection ~ 1900 3600
 Wire Wire Line
-	3650 3900 3650 4000
+	1900 3600 1900 3700
 Wire Wire Line
-	4400 3750 3650 3750
+	2650 3450 1900 3450
 Wire Wire Line
-	3350 3650 3650 3650
+	1600 3350 1900 3350
 Wire Wire Line
-	3650 3650 3650 3750
-Connection ~ 3650 3750
+	1900 3350 1900 3450
+Connection ~ 1900 3450
 Wire Wire Line
-	3650 3750 3350 3750
+	1900 3450 1600 3450
 Wire Wire Line
-	4400 3250 3350 3250
+	2650 2950 1600 2950
 Wire Wire Line
-	5600 4250 5950 4250
+	3850 3950 4200 3950
+$Comp
+L Device:R R?
+U 1 1 5E15CB2A
+P 1750 5900
+AR Path="/5E0FF68C/5E15CB2A" Ref="R?"  Part="1" 
+AR Path="/5E07E0B7/5E15CB2A" Ref="R?"  Part="1" 
+F 0 "R?" H 1820 5946 50  0000 L CNN
+F 1 "10K" H 1820 5855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1680 5900 50  0001 C CNN
+F 3 "~" H 1750 5900 50  0001 C CNN
+	1    1750 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E15CB30
+P 1750 6650
+AR Path="/5E0FF68C/5E15CB30" Ref="R?"  Part="1" 
+AR Path="/5E07E0B7/5E15CB30" Ref="R?"  Part="1" 
+F 0 "R?" H 1820 6696 50  0000 L CNN
+F 1 "10K" H 1820 6605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1680 6650 50  0001 C CNN
+F 3 "~" H 1750 6650 50  0001 C CNN
+	1    1750 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L SS8050-G:SS8050-G Q?
+U 1 1 5E15CB3B
+P 2150 5900
+F 0 "Q?" H 2688 5946 50  0000 L CNN
+F 1 "SS8050-G" H 2688 5855 50  0000 L CNN
+F 2 "SOT95P240X115-3N" H 2150 5900 50  0001 L BNN
+F 3 "1.15mm" H 2150 5900 50  0001 L BNN
+F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 2150 5900 50  0001 L BNN "Field4"
+F 5 "Comchip Technology" H 2150 5900 50  0001 L BNN "Field5"
+F 6 "" H 2150 5900 50  0001 L BNN "Field6"
+F 7 "" H 2150 5900 50  0001 L BNN "Field7"
+F 8 "SS8050-G" H 2150 5900 50  0001 L BNN "Field8"
+	1    2150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SS8050-G:SS8050-G Q?
+U 1 1 5E15CB46
+P 2150 6650
+F 0 "Q?" H 2688 6696 50  0000 L CNN
+F 1 "SS8050-G" H 2688 6605 50  0000 L CNN
+F 2 "SOT95P240X115-3N" H 2150 6650 50  0001 L BNN
+F 3 "1.15mm" H 2150 6650 50  0001 L BNN
+F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 2150 6650 50  0001 L BNN "Field4"
+F 5 "Comchip Technology" H 2150 6650 50  0001 L BNN "Field5"
+F 6 "" H 2150 6650 50  0001 L BNN "Field6"
+F 7 "" H 2150 6650 50  0001 L BNN "Field7"
+F 8 "SS8050-G" H 2150 6650 50  0001 L BNN "Field8"
+	1    2150 6650
+	1    0    0    1   
+$EndComp
+Text GLabel 1300 5900 0    50   Input ~ 0
+ESP_DTR
+Text GLabel 1300 6650 0    50   Input ~ 0
+ESP_RTS
+Wire Wire Line
+	1300 5900 1500 5900
+Wire Wire Line
+	1600 6650 1550 6650
+Wire Wire Line
+	2150 6650 1900 6650
+Wire Wire Line
+	1900 5900 2150 5900
+Text GLabel 3350 5500 2    50   Input ~ 0
+ESP_EN
+Text GLabel 3350 7050 2    50   Input ~ 0
+ESP_IO0
+Wire Wire Line
+	3350 5500 2550 5500
+Wire Wire Line
+	2550 5500 2550 5600
+Wire Wire Line
+	3350 7050 2550 7050
+Wire Wire Line
+	2550 7050 2550 6950
+Wire Wire Line
+	2550 6200 1550 6200
+Wire Wire Line
+	1550 6200 1550 6650
+Connection ~ 1550 6650
+Wire Wire Line
+	1550 6650 1300 6650
+Wire Wire Line
+	2550 6350 1500 6350
+Wire Wire Line
+	1500 6350 1500 5900
+Connection ~ 1500 5900
+Wire Wire Line
+	1500 5900 1600 5900
 $EndSCHEMATC
