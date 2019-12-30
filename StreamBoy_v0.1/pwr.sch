@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Switching:TPS62170DSG U6
+L Regulator_Switching:TPS62170DSG U10
 U 1 1 5E088ABF
 P 6900 1950
-F 0 "U6" H 6900 2517 50  0000 C CNN
+F 0 "U10" H 6900 2517 50  0000 C CNN
 F 1 "TPS62170DSG" H 6900 2426 50  0000 C CNN
 F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias" H 7050 1600 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps62170.pdf" H 6900 2500 50  0001 C CNN
@@ -162,10 +162,10 @@ Wire Wire Line
 	6250 2450 6250 1950
 Connection ~ 6800 2450
 $Comp
-L Regulator_Switching:TPS62170DSG U7
+L Regulator_Switching:TPS62170DSG U11
 U 1 1 5E11E0DE
 P 6850 3400
-F 0 "U7" H 6850 3967 50  0000 C CNN
+F 0 "U11" H 6850 3967 50  0000 C CNN
 F 1 "TPS62170DSG" H 6850 3876 50  0000 C CNN
 F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias" H 7000 3050 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps62170.pdf" H 6850 3950 50  0001 C CNN
