@@ -15,43 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LY68L6400SLIT:LY68L6400SLIT IC1
-U 1 1 5E092BFD
-P 6750 5550
-F 0 "IC1" H 7550 5815 50  0000 C CNN
-F 1 "LY68L6400SLIT" H 7550 5724 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H 8200 5650 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Lyontek-Inc-LY68L6400SLIT_C261881.pdf" H 8200 5550 50  0001 L CNN
-F 4 "AM SRAM 64Mb (8M x 8) SPI/ QPI SOP-8_150mil RoHS" H 8200 5450 50  0001 L CNN "Description"
-F 5 "1.75" H 8200 5350 50  0001 L CNN "Height"
-F 6 "Lyontek Inc." H 8200 5250 50  0001 L CNN "Manufacturer_Name"
-F 7 "LY68L6400SLIT" H 8200 5150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 8200 5050 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 8200 4950 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 8200 4850 50  0001 L CNN "RS Part Number"
-F 11 "" H 8200 4750 50  0001 L CNN "RS Price/Stock"
-	1    6750 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 5550 6500 5550
-Wire Wire Line
-	6750 5650 6500 5650
-Wire Wire Line
-	6750 5750 6500 5750
-Wire Wire Line
-	6750 5850 6500 5850
-Wire Wire Line
-	8350 5850 8600 5850
-Wire Wire Line
-	8350 5750 8600 5750
-Wire Wire Line
-	8350 5650 8600 5650
-Wire Wire Line
-	8350 5550 8600 5550
-Text GLabel 8600 5550 2    50   Input ~ 0
-VCC3
-$Comp
 L Oscillator:SG-7050CBN X1
 U 1 1 5E0DA99D
 P 9850 5750
@@ -385,4 +348,64 @@ Wire Wire Line
 	1950 2350 2650 2350
 Text Notes 4150 2000 0    50   ~ 0
 Note, RX/TX are flipped
+Text GLabel 8750 2250 2    50   Input ~ 0
+VCC3
+Wire Wire Line
+	8500 2250 8750 2250
+Wire Wire Line
+	8500 2350 8750 2350
+Wire Wire Line
+	8500 2450 8750 2450
+Wire Wire Line
+	8500 2550 8750 2550
+Wire Wire Line
+	6900 2550 6650 2550
+Wire Wire Line
+	6900 2450 6650 2450
+Wire Wire Line
+	6900 2350 6650 2350
+Wire Wire Line
+	6900 2250 6650 2250
+$Comp
+L LY68L6400SLIT:LY68L6400SLIT IC1
+U 1 1 5E092BFD
+P 6900 2250
+F 0 "IC1" H 7700 2515 50  0000 C CNN
+F 1 "LY68L6400SLIT" H 7700 2424 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 8350 2350 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Lyontek-Inc-LY68L6400SLIT_C261881.pdf" H 8350 2250 50  0001 L CNN
+F 4 "AM SRAM 64Mb (8M x 8) SPI/ QPI SOP-8_150mil RoHS" H 8350 2150 50  0001 L CNN "Description"
+F 5 "1.75" H 8350 2050 50  0001 L CNN "Height"
+F 6 "Lyontek Inc." H 8350 1950 50  0001 L CNN "Manufacturer_Name"
+F 7 "LY68L6400SLIT" H 8350 1850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 8350 1750 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 8350 1650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 8350 1550 50  0001 L CNN "RS Part Number"
+F 11 "" H 8350 1450 50  0001 L CNN "RS Price/Stock"
+	1    6900 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 2450 2    50   Input ~ 0
+RAM_CLK
+Text GLabel 8750 2550 2    50   Input ~ 0
+RAM_D0
+Text GLabel 8750 2350 2    50   Input ~ 0
+RAM_D3
+Text GLabel 6650 2450 0    50   Input ~ 0
+RAM_D2
+Text GLabel 6650 2350 0    50   Input ~ 0
+RAM_D1
+Text GLabel 6650 2250 0    50   Input ~ 0
+RAM_CS
+$Comp
+L power:GND #PWR?
+U 1 1 5E179831
+P 6650 2550
+F 0 "#PWR?" H 6650 2300 50  0001 C CNN
+F 1 "GND" H 6655 2377 50  0000 C CNN
+F 2 "" H 6650 2550 50  0001 C CNN
+F 3 "" H 6650 2550 50  0001 C CNN
+	1    6650 2550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
