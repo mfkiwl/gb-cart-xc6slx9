@@ -196,23 +196,17 @@ Text GLabel 7300 5300 0    50   Input ~ 0
 ESP_I2C_SDA
 Text GLabel 7300 5400 0    50   Input ~ 0
 ESP_I2C_SCL
-Text GLabel 4500 2900 2    50   Input ~ 0
+Text GLabel 4850 3400 2    50   Input ~ 0
 ESP_SD_CS
-Text GLabel 4500 2800 2    50   Input ~ 0
+Text GLabel 4850 3300 2    50   Input ~ 0
 ESP_SD_DI_MOSI
-Text GLabel 4500 3000 2    50   Input ~ 0
+Text GLabel 4850 2900 2    50   Input ~ 0
 ESP_SD_DO_MISO
 Text GLabel 7300 4700 0    50   Input ~ 0
 ESP_FPGA_SCLK
 Text GLabel 7300 4800 0    50   Input ~ 0
 ESP_FPGA_MOSI
 Text GLabel 7300 4900 0    50   Input ~ 0
-ESP_FPGA_MISO
-Text GLabel 4500 3150 2    50   Input ~ 0
-ESP_FPGA_SCLK
-Text GLabel 4500 3250 2    50   Input ~ 0
-ESP_FPGA_MOSI
-Text GLabel 4500 3350 2    50   Input ~ 0
 ESP_FPGA_MISO
 Text GLabel 7300 5000 0    50   Input ~ 0
 ESP_FPGA_CS
@@ -269,4 +263,123 @@ Text GLabel 7150 1600 0    50   Input ~ 0
 GND
 Wire Wire Line
 	9250 3450 9050 3450
+$Comp
+L TF-015:TF-015 JSD
+U 1 1 5E16DC93
+P 4850 3500
+F 0 "JSD" H 4800 2683 50  0000 C CNN
+F 1 "Micro_SD_Card" H 4800 2774 50  0000 C CNN
+F 2 "TF-015:TF015" H 6000 3800 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 4850 3500 50  0001 C CNN
+	1    4850 3500
+	-1   0    0    1   
+$EndComp
+Text GLabel 4850 3200 2    50   Input ~ 0
+VCC3
+Text GLabel 4850 3100 2    50   Input ~ 0
+ESP_SD_SCLK
+$Comp
+L power:GND #PWR?
+U 1 1 5E17163C
+P 3550 3000
+AR Path="/5E17163C" Ref="#PWR?"  Part="1" 
+AR Path="/5E087685/5E17163C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 2750 50  0001 C CNN
+F 1 "GND" H 3555 2827 50  0000 C CNN
+F 2 "" H 3550 3000 50  0001 C CNN
+F 3 "" H 3550 3000 50  0001 C CNN
+	1    3550 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E173646
+P 4850 3000
+AR Path="/5E173646" Ref="#PWR?"  Part="1" 
+AR Path="/5E087685/5E173646" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4850 2750 50  0001 C CNN
+F 1 "GND" H 4855 2827 50  0000 C CNN
+F 2 "" H 4850 3000 50  0001 C CNN
+F 3 "" H 4850 3000 50  0001 C CNN
+	1    4850 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E172C99
+P 4850 3500
+AR Path="/5E172C99" Ref="#PWR?"  Part="1" 
+AR Path="/5E087685/5E172C99" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4850 3250 50  0001 C CNN
+F 1 "GND" H 4850 3350 50  0000 C CNN
+F 2 "" H 4850 3500 50  0001 C CNN
+F 3 "" H 4850 3500 50  0001 C CNN
+	1    4850 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E173024
+P 3550 3100
+AR Path="/5E173024" Ref="#PWR?"  Part="1" 
+AR Path="/5E087685/5E173024" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 2850 50  0001 C CNN
+F 1 "GND" H 3555 2927 50  0000 C CNN
+F 2 "" H 3550 3100 50  0001 C CNN
+F 3 "" H 3550 3100 50  0001 C CNN
+	1    3550 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E096F86
+P 3550 3200
+AR Path="/5E096F86" Ref="#PWR?"  Part="1" 
+AR Path="/5E087685/5E096F86" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 2950 50  0001 C CNN
+F 1 "GND" H 3555 3027 50  0000 C CNN
+F 2 "" H 3550 3200 50  0001 C CNN
+F 3 "" H 3550 3200 50  0001 C CNN
+	1    3550 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E097212
+P 3550 3300
+AR Path="/5E097212" Ref="#PWR?"  Part="1" 
+AR Path="/5E087685/5E097212" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 3050 50  0001 C CNN
+F 1 "GND" H 3555 3127 50  0000 C CNN
+F 2 "" H 3550 3300 50  0001 C CNN
+F 3 "" H 3550 3300 50  0001 C CNN
+	1    3550 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E097405
+P 3550 3500
+AR Path="/5E097405" Ref="#PWR?"  Part="1" 
+AR Path="/5E087685/5E097405" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 3250 50  0001 C CNN
+F 1 "GND" H 3555 3327 50  0000 C CNN
+F 2 "" H 3550 3500 50  0001 C CNN
+F 3 "" H 3550 3500 50  0001 C CNN
+	1    3550 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E097DDA
+P 3550 3400
+AR Path="/5E097DDA" Ref="#PWR?"  Part="1" 
+AR Path="/5E087685/5E097DDA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 3150 50  0001 C CNN
+F 1 "GND" H 3555 3227 50  0000 C CNN
+F 2 "" H 3550 3400 50  0001 C CNN
+F 3 "" H 3550 3400 50  0001 C CNN
+	1    3550 3400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
