@@ -124,20 +124,7 @@ F 3 "~" H 4300 2700 50  0001 C CNN
 	1    4300 2700
 	-1   0    0    1   
 $EndComp
-$Comp
-L Switch:SW_Push SW_RESET_GB?
-U 1 1 5E094405
-P 4300 3350
-AR Path="/5E094405" Ref="SW_RESET_GB?"  Part="1" 
-AR Path="/5E087685/5E094405" Ref="SW_RESET_GB1"  Part="1" 
-F 0 "SW_RESET_GB1" V 4254 3498 50  0000 L CNN
-F 1 "SW_Push" V 4345 3498 50  0000 L CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4300 3550 50  0001 C CNN
-F 3 "" H 4300 3550 50  0001 C CNN
-	1    4300 3350
-	0    -1   1    0   
-$EndComp
-Text GLabel 4300 3700 3    50   Input ~ 0
+Text GLabel 4300 3400 3    50   Input ~ 0
 GND
 Text GLabel 4300 2450 1    50   Input ~ 0
 VCC5
@@ -148,7 +135,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 2850 4300 3000
 Wire Wire Line
-	4300 3550 4300 3700
+	4300 3250 4300 3400
 Wire Wire Line
 	4300 3000 4100 3000
 Connection ~ 4300 3000
@@ -172,7 +159,7 @@ ESP_DAC1
 Wire Wire Line
 	7250 1150 7400 1150
 Wire Wire Line
-	7400 1050 7250 1050
+	7400 1050 7350 1050
 Text GLabel 5450 3000 2    50   Input ~ 0
 ESP_GB_RESET
 Text GLabel 7400 2450 0    50   Input ~ 0
@@ -620,4 +607,26 @@ Wire Wire Line
 	7400 3450 7300 3450
 Wire Wire Line
 	7300 3550 7400 3550
+Text GLabel 7250 950  0    50   Input ~ 0
+GB_VIN
+Wire Wire Line
+	7250 950  7350 950 
+Wire Wire Line
+	7350 950  7350 1050
+Connection ~ 7350 1050
+Wire Wire Line
+	7350 1050 7250 1050
+$Comp
+L Connector_Generic:Conn_01x02 JPOWER1V?
+U 1 1 5E28641F
+P 4500 3150
+AR Path="/5E28641F" Ref="JPOWER1V?"  Part="1" 
+AR Path="/5E087685/5E28641F" Ref="JRESET"  Part="1" 
+F 0 "JRESET" H 4580 3142 50  0000 L CNN
+F 1 "Conn_01x02" H 4580 3051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4500 3150 50  0001 C CNN
+F 3 "~" H 4500 3150 50  0001 C CNN
+	1    4500 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

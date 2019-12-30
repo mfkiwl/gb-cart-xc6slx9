@@ -730,4 +730,64 @@ Text GLabel 6450 3550 2    50   Input ~ 0
 FPGA_LED2
 Text Notes 6500 3350 0    50   ~ 0
 Move these!
+Text GLabel 13700 3050 2    50   Input ~ 0
+A0
+Text GLabel 13700 3150 2    50   Input ~ 0
+A1
+Text GLabel 13700 3250 2    50   Input ~ 0
+A2
+Text GLabel 13700 3350 2    50   Input ~ 0
+A3
+Text GLabel 13700 2650 2    50   Input ~ 0
+A4
+Text GLabel 13700 2750 2    50   Input ~ 0
+A5
+Text GLabel 13700 2850 2    50   Input ~ 0
+A6
+Text GLabel 13700 2950 2    50   Input ~ 0
+A7
+Text GLabel 13700 2250 2    50   Input ~ 0
+A8
+Text GLabel 13700 2350 2    50   Input ~ 0
+A9
+Text GLabel 13700 2450 2    50   Input ~ 0
+A10
+Text GLabel 13700 2550 2    50   Input ~ 0
+A11
+Text GLabel 13700 1850 2    50   Input ~ 0
+A12
+Text GLabel 13700 1950 2    50   Input ~ 0
+A13
+Text GLabel 13700 2050 2    50   Input ~ 0
+A14
+Text GLabel 13700 2150 2    50   Input ~ 0
+A15
+Text GLabel 9700 3550 0    50   Input ~ 0
+CLK
+Text GLabel 9700 3450 0    50   Input ~ 0
+WR
+Text GLabel 9700 3350 0    50   Input ~ 0
+RD
+Text GLabel 9700 3250 0    50   Input ~ 0
+CS
+Text GLabel 9700 3650 0    50   Input ~ 0
+D7
+Text GLabel 9700 3750 0    50   Input ~ 0
+D6
+Text GLabel 9700 3850 0    50   Input ~ 0
+D5
+Text GLabel 9700 3950 0    50   Input ~ 0
+D4
+Text GLabel 9700 4350 0    50   Input ~ 0
+D0
+Text GLabel 9700 4250 0    50   Input ~ 0
+D1
+Text GLabel 9700 4150 0    50   Input ~ 0
+D2
+Text GLabel 9700 4050 0    50   Input ~ 0
+D3
+Text Notes 9500 4000 1    50   ~ 0
+Move these!
+Text Notes 14000 2350 3    50   ~ 0
+Move these!
 $EndSCHEMATC
