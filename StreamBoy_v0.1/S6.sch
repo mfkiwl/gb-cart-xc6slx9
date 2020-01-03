@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:StreamBoy-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -64,7 +63,7 @@ U 1 1 5E0EB1C5
 P 13500 850
 F 0 "C28" H 13615 896 50  0000 L CNN
 F 1 "0.47uF" H 13615 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 13538 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13538 700 50  0001 C CNN
 F 3 "~" H 13500 850 50  0001 C CNN
 	1    13500 850 
 	1    0    0    -1  
@@ -75,7 +74,7 @@ U 1 1 5E0EB3DF
 P 14050 850
 F 0 "C29" H 14165 896 50  0000 L CNN
 F 1 "4.7uF" H 14165 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 14088 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14088 700 50  0001 C CNN
 F 3 "~" H 14050 850 50  0001 C CNN
 	1    14050 850 
 	1    0    0    -1  
@@ -86,7 +85,7 @@ U 1 1 5E0EB5AC
 P 14550 850
 F 0 "C30" H 14665 896 50  0000 L CNN
 F 1 "100uF" H 14665 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 14588 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14588 700 50  0001 C CNN
 F 3 "~" H 14550 850 50  0001 C CNN
 	1    14550 850 
 	1    0    0    -1  
@@ -97,7 +96,7 @@ U 1 1 5E0EBC79
 P 5000 5350
 F 0 "C16" H 5115 5396 50  0000 L CNN
 F 1 "0.47uF" H 5115 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5038 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5038 5200 50  0001 C CNN
 F 3 "~" H 5000 5350 50  0001 C CNN
 	1    5000 5350
 	1    0    0    -1  
@@ -108,7 +107,7 @@ U 1 1 5E0EBE8B
 P 2200 5350
 F 0 "C12" H 2315 5396 50  0000 L CNN
 F 1 "0.47uF" H 2315 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2238 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2238 5200 50  0001 C CNN
 F 3 "~" H 2200 5350 50  0001 C CNN
 	1    2200 5350
 	1    0    0    -1  
@@ -119,7 +118,7 @@ U 1 1 5E0EC50A
 P 1800 5350
 F 0 "C11" H 1915 5396 50  0000 L CNN
 F 1 "4.7uF" H 1915 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1838 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1838 5200 50  0001 C CNN
 F 3 "~" H 1800 5350 50  0001 C CNN
 	1    1800 5350
 	1    0    0    -1  
@@ -127,14 +126,14 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E0F0F7E
-P 5200 8100
+P 7000 9700
 AR Path="/5E0FF68C/5E0F0F7E" Ref="R?"  Part="1" 
 AR Path="/5E0E69A0/5E0F0F7E" Ref="R5"  Part="1" 
-F 0 "R5" V 5270 8146 50  0000 L CNN
-F 1 "4.7KOhm" V 5350 7950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5130 8100 50  0001 C CNN
-F 3 "~" H 5200 8100 50  0001 C CNN
-	1    5200 8100
+F 0 "R5" V 7070 9746 50  0000 L CNN
+F 1 "4.7KOhm" V 7150 9550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 9700 50  0001 C CNN
+F 3 "~" H 7000 9700 50  0001 C CNN
+	1    7000 9700
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -183,7 +182,7 @@ U 1 1 5E15D2D0
 P 10400 850
 F 0 "C25" H 10515 896 50  0000 L CNN
 F 1 "0.47uF" H 10515 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10438 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10438 700 50  0001 C CNN
 F 3 "~" H 10400 850 50  0001 C CNN
 	1    10400 850 
 	1    0    0    -1  
@@ -194,7 +193,7 @@ U 1 1 5E15D2D6
 P 10950 850
 F 0 "C26" H 11065 896 50  0000 L CNN
 F 1 "4.7uF" H 11065 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10988 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10988 700 50  0001 C CNN
 F 3 "~" H 10950 850 50  0001 C CNN
 	1    10950 850 
 	1    0    0    -1  
@@ -205,7 +204,7 @@ U 1 1 5E15D2DC
 P 11450 850
 F 0 "C27" H 11565 896 50  0000 L CNN
 F 1 "100uF" H 11565 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 11488 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11488 700 50  0001 C CNN
 F 3 "~" H 11450 850 50  0001 C CNN
 	1    11450 850 
 	1    0    0    -1  
@@ -253,7 +252,7 @@ U 1 1 5E17B759
 P 6250 850
 F 0 "C19" H 6365 896 50  0000 L CNN
 F 1 "0.47uF" H 6365 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6288 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6288 700 50  0001 C CNN
 F 3 "~" H 6250 850 50  0001 C CNN
 	1    6250 850 
 	1    0    0    -1  
@@ -264,7 +263,7 @@ U 1 1 5E17B75F
 P 6800 850
 F 0 "C21" H 6915 896 50  0000 L CNN
 F 1 "4.7uF" H 6915 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6838 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6838 700 50  0001 C CNN
 F 3 "~" H 6800 850 50  0001 C CNN
 	1    6800 850 
 	1    0    0    -1  
@@ -275,7 +274,7 @@ U 1 1 5E17B765
 P 7300 850
 F 0 "C23" H 7415 896 50  0000 L CNN
 F 1 "100uF" H 7415 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7338 700 50  0001 C CNN
 F 3 "~" H 7300 850 50  0001 C CNN
 	1    7300 850 
 	1    0    0    -1  
@@ -326,7 +325,7 @@ U 1 1 5E181893
 P 3250 850
 F 0 "C13" H 3365 896 50  0000 L CNN
 F 1 "0.47uF" H 3365 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3288 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3288 700 50  0001 C CNN
 F 3 "~" H 3250 850 50  0001 C CNN
 	1    3250 850 
 	1    0    0    -1  
@@ -337,7 +336,7 @@ U 1 1 5E181899
 P 3800 850
 F 0 "C14" H 3915 896 50  0000 L CNN
 F 1 "4.7uF" H 3915 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3838 700 50  0001 C CNN
 F 3 "~" H 3800 850 50  0001 C CNN
 	1    3800 850 
 	1    0    0    -1  
@@ -348,7 +347,7 @@ U 1 1 5E18189F
 P 4300 850
 F 0 "C15" H 4415 896 50  0000 L CNN
 F 1 "100uF" H 4415 805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4338 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4338 700 50  0001 C CNN
 F 3 "~" H 4300 850 50  0001 C CNN
 	1    4300 850 
 	1    0    0    -1  
@@ -399,7 +398,7 @@ U 1 1 5E1905ED
 P 5500 5350
 F 0 "C17" H 5615 5396 50  0000 L CNN
 F 1 "4.7uF" H 5615 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5538 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5538 5200 50  0001 C CNN
 F 3 "~" H 5500 5350 50  0001 C CNN
 	1    5500 5350
 	1    0    0    -1  
@@ -410,7 +409,7 @@ U 1 1 5E1905F3
 P 5950 5350
 F 0 "C18" H 6065 5396 50  0000 L CNN
 F 1 "4.7uF" H 6065 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5988 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5988 5200 50  0001 C CNN
 F 3 "~" H 5950 5350 50  0001 C CNN
 	1    5950 5350
 	1    0    0    -1  
@@ -421,7 +420,7 @@ U 1 1 5E1905F9
 P 6400 5350
 F 0 "C20" H 6515 5396 50  0000 L CNN
 F 1 "4.7uF" H 6515 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6438 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6438 5200 50  0001 C CNN
 F 3 "~" H 6400 5350 50  0001 C CNN
 	1    6400 5350
 	1    0    0    -1  
@@ -432,7 +431,7 @@ U 1 1 5E1905FF
 P 6850 5350
 F 0 "C22" H 6965 5396 50  0000 L CNN
 F 1 "4.7uF" H 6965 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6888 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6888 5200 50  0001 C CNN
 F 3 "~" H 6850 5350 50  0001 C CNN
 	1    6850 5350
 	1    0    0    -1  
@@ -443,7 +442,7 @@ U 1 1 5E190605
 P 7300 5350
 F 0 "C24" H 7415 5396 50  0000 L CNN
 F 1 "4.7uF" H 7415 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7338 5200 50  0001 C CNN
 F 3 "~" H 7300 5350 50  0001 C CNN
 	1    7300 5350
 	1    0    0    -1  
@@ -654,26 +653,7 @@ F 3 "" H 4900 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 8200 5050 8200
-Wire Wire Line
-	4400 8100 5050 8100
-Wire Wire Line
-	5350 8100 5350 8200
-Wire Wire Line
 	4400 8600 5050 8600
-$Comp
-L Device:R R?
-U 1 1 5E24F720
-P 5200 8200
-AR Path="/5E0FF68C/5E24F720" Ref="R?"  Part="1" 
-AR Path="/5E0E69A0/5E24F720" Ref="R6"  Part="1" 
-F 0 "R6" V 5270 8246 50  0000 L CNN
-F 1 "4.7KOhm" V 5350 8050 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5130 8200 50  0001 C CNN
-F 3 "~" H 5200 8200 50  0001 C CNN
-	1    5200 8200
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5E250072
@@ -690,104 +670,211 @@ $EndComp
 Wire Wire Line
 	5350 8600 5500 8600
 Wire Wire Line
-	5350 8100 5500 8100
-Connection ~ 5350 8100
-Text GLabel 5500 8100 2    50   Input ~ 0
+	7150 9700 7300 9700
+Text GLabel 7300 9700 2    50   Input ~ 0
 VCC3
 Text GLabel 5500 8600 2    50   Input ~ 0
 VCC3
-Text GLabel 2450 3550 0    50   Input ~ 0
+Text GLabel 9700 3050 0    50   Input ~ 0
 ESP_I2C_SDA
-Text GLabel 2450 3650 0    50   Input ~ 0
+Text GLabel 9700 2950 0    50   Input ~ 0
 ESP_I2C_SCL
-Text GLabel 2450 2650 0    50   Input ~ 0
+Text GLabel 9700 1850 0    50   Input ~ 0
 ESP_FPGA_SCLK
-Text GLabel 2450 2750 0    50   Input ~ 0
-ESP_FPGA_MOSI
-Text GLabel 2450 2850 0    50   Input ~ 0
+Text GLabel 9700 2150 0    50   Input ~ 0
 ESP_FPGA_MISO
-Text Notes 1850 2550 0    50   ~ 0
-Move these!
-Text Notes 1900 3450 0    50   ~ 0
-Move these!
-Text GLabel 6450 2050 2    50   Input ~ 0
+Text GLabel 6450 3050 2    50   Input ~ 0
 RAM_CLK
-Text GLabel 6450 2150 2    50   Input ~ 0
+Text GLabel 6450 3150 2    50   Input ~ 0
 RAM_CS
-Text GLabel 6450 2250 2    50   Input ~ 0
+Text GLabel 6450 3250 2    50   Input ~ 0
 RAM_D0
-Text GLabel 6450 2350 2    50   Input ~ 0
+Text GLabel 6450 3350 2    50   Input ~ 0
 RAM_D1
-Text GLabel 6450 2450 2    50   Input ~ 0
-RAM_D2
-Text GLabel 6450 2550 2    50   Input ~ 0
-RAM_D3
-Text Notes 6550 1950 0    50   ~ 0
-Move these!
 Text GLabel 6450 3450 2    50   Input ~ 0
-FPGA_LED1
+RAM_D2
 Text GLabel 6450 3550 2    50   Input ~ 0
-FPGA_LED2
-Text Notes 6500 3350 0    50   ~ 0
-Move these!
-Text GLabel 13700 3050 2    50   Input ~ 0
-A0
-Text GLabel 13700 3150 2    50   Input ~ 0
-A1
-Text GLabel 13700 3250 2    50   Input ~ 0
-A2
-Text GLabel 13700 3350 2    50   Input ~ 0
-A3
-Text GLabel 13700 2650 2    50   Input ~ 0
-A4
-Text GLabel 13700 2750 2    50   Input ~ 0
-A5
-Text GLabel 13700 2850 2    50   Input ~ 0
-A6
-Text GLabel 13700 2950 2    50   Input ~ 0
-A7
-Text GLabel 13700 2250 2    50   Input ~ 0
-A8
-Text GLabel 13700 2350 2    50   Input ~ 0
-A9
-Text GLabel 13700 2450 2    50   Input ~ 0
-A10
-Text GLabel 13700 2550 2    50   Input ~ 0
-A11
-Text GLabel 13700 1850 2    50   Input ~ 0
-A12
+RAM_D3
 Text GLabel 13700 1950 2    50   Input ~ 0
-A13
+FPGA_LED1
 Text GLabel 13700 2050 2    50   Input ~ 0
+FPGA_LED2
+Text GLabel 2450 3950 0    50   Input ~ 0
+A4
+Text GLabel 2450 3850 0    50   Input ~ 0
+A5
+Text GLabel 2450 3750 0    50   Input ~ 0
+A6
+Text GLabel 2450 3650 0    50   Input ~ 0
+A8
+Text GLabel 2450 3450 0    50   Input ~ 0
+A9
+Text GLabel 2450 3350 0    50   Input ~ 0
+A10
+Text GLabel 2450 3250 0    50   Input ~ 0
+A11
+Text GLabel 2450 3150 0    50   Input ~ 0
+A12
+Text GLabel 2450 3050 0    50   Input ~ 0
+A13
+Text GLabel 2450 2950 0    50   Input ~ 0
 A14
-Text GLabel 13700 2150 2    50   Input ~ 0
+Text GLabel 2450 2850 0    50   Input ~ 0
 A15
-Text GLabel 9700 3550 0    50   Input ~ 0
-CLK
-Text GLabel 9700 3450 0    50   Input ~ 0
+Text GLabel 6450 2550 2    50   Input ~ 0
 WR
-Text GLabel 9700 3350 0    50   Input ~ 0
+Text GLabel 6450 2450 2    50   Input ~ 0
 RD
-Text GLabel 9700 3250 0    50   Input ~ 0
+Text GLabel 6450 2750 2    50   Input ~ 0
 CS
-Text GLabel 9700 3650 0    50   Input ~ 0
+Text GLabel 2450 2050 0    50   Input ~ 0
 D7
-Text GLabel 9700 3750 0    50   Input ~ 0
+Text GLabel 2450 2150 0    50   Input ~ 0
 D6
-Text GLabel 9700 3850 0    50   Input ~ 0
+Text GLabel 2450 2250 0    50   Input ~ 0
 D5
-Text GLabel 9700 3950 0    50   Input ~ 0
+Text GLabel 2450 2350 0    50   Input ~ 0
 D4
-Text GLabel 9700 4350 0    50   Input ~ 0
+Text GLabel 2450 2750 0    50   Input ~ 0
 D0
-Text GLabel 9700 4250 0    50   Input ~ 0
+Text GLabel 2450 2650 0    50   Input ~ 0
 D1
-Text GLabel 9700 4150 0    50   Input ~ 0
+Text GLabel 2450 2550 0    50   Input ~ 0
 D2
-Text GLabel 9700 4050 0    50   Input ~ 0
+Text GLabel 2450 2450 0    50   Input ~ 0
 D3
-Text Notes 9500 4000 1    50   ~ 0
-Move these!
-Text Notes 14000 2350 3    50   ~ 0
-Move these!
+Text GLabel 4400 7600 2    50   Input ~ 0
+FPGA_JTAG_TDI
+Text GLabel 4400 7700 2    50   Input ~ 0
+FPGA_JTAG_TDO
+Text GLabel 4400 7800 2    50   Input ~ 0
+FPGA_JTAG_TMS
+Text GLabel 4400 7900 2    50   Input ~ 0
+FPGA_JTAG_TCK
+Text GLabel 4400 8200 2    50   Input ~ 0
+FPGA_PROG
+Text GLabel 6850 9700 0    50   Input ~ 0
+FPGA_PROG
+Text GLabel 9700 1950 0    50   Input ~ 0
+VCC3
+Text GLabel 9700 2650 0    50   Input ~ 0
+VCC3
+Text GLabel 9700 4250 0    50   Input ~ 0
+INIT_B
+$Comp
+L Device:R R?
+U 1 1 5E12DD88
+P 7000 9350
+AR Path="/5E0FF68C/5E12DD88" Ref="R?"  Part="1" 
+AR Path="/5E0E69A0/5E12DD88" Ref="R20"  Part="1" 
+F 0 "R20" V 7070 9396 50  0000 L CNN
+F 1 "4.7KOhm" V 7150 9200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 9350 50  0001 C CNN
+F 3 "~" H 7000 9350 50  0001 C CNN
+	1    7000 9350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 9350 7300 9350
+Text GLabel 7300 9350 2    50   Input ~ 0
+VCC3
+Text GLabel 6850 9350 0    50   Input ~ 0
+INIT_B
+Text GLabel 4400 8100 2    50   Input ~ 0
+FPGA_DONE
+$Comp
+L Device:R R?
+U 1 1 5E1376CC
+P 7000 9000
+AR Path="/5E0FF68C/5E1376CC" Ref="R?"  Part="1" 
+AR Path="/5E0E69A0/5E1376CC" Ref="R6"  Part="1" 
+F 0 "R6" V 7070 9046 50  0000 L CNN
+F 1 "330Ohm" V 7150 8850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 9000 50  0001 C CNN
+F 3 "~" H 7000 9000 50  0001 C CNN
+	1    7000 9000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 9000 7300 9000
+Text GLabel 7300 9000 2    50   Input ~ 0
+VCC3
+Text GLabel 6850 9000 0    50   Input ~ 0
+FPGA_DONE
+Text GLabel 9700 2250 0    50   Input ~ 0
+ESP_FPGA_MOSI
+Text GLabel 2450 1850 0    50   Input ~ 0
+HSWAPEN
+$Comp
+L Device:R R?
+U 1 1 5E198A77
+P 7000 10050
+AR Path="/5E0FF68C/5E198A77" Ref="R?"  Part="1" 
+AR Path="/5E0E69A0/5E198A77" Ref="R21"  Part="1" 
+F 0 "R21" V 7070 10096 50  0000 L CNN
+F 1 "4.7KOhm" V 7150 9900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 10050 50  0001 C CNN
+F 3 "~" H 7000 10050 50  0001 C CNN
+	1    7000 10050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0132
+U 1 1 5E1991EF
+P 7150 10050
+F 0 "#PWR0132" H 7150 9800 50  0001 C CNN
+F 1 "GND" V 7155 9922 50  0000 R CNN
+F 2 "" H 7150 10050 50  0001 C CNN
+F 3 "" H 7150 10050 50  0001 C CNN
+	1    7150 10050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6850 10050 0    50   Input ~ 0
+HSWAPEN
+Text GLabel 4400 8400 2    50   Input ~ 0
+SUSPEND
+$Comp
+L Device:R R?
+U 1 1 5E1A00D9
+P 7000 10400
+AR Path="/5E0FF68C/5E1A00D9" Ref="R?"  Part="1" 
+AR Path="/5E0E69A0/5E1A00D9" Ref="R22"  Part="1" 
+F 0 "R22" V 7070 10446 50  0000 L CNN
+F 1 "4.7KOhm" V 7150 10250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 10400 50  0001 C CNN
+F 3 "~" H 7000 10400 50  0001 C CNN
+	1    7000 10400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0133
+U 1 1 5E1A00DF
+P 7150 10400
+F 0 "#PWR0133" H 7150 10150 50  0001 C CNN
+F 1 "GND" V 7155 10272 50  0000 R CNN
+F 2 "" H 7150 10400 50  0001 C CNN
+F 3 "" H 7150 10400 50  0001 C CNN
+	1    7150 10400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6850 10400 0    50   Input ~ 0
+SUSPEND
+Text Notes 13850 1850 0    50   ~ 0
+Place anywhere
+Text GLabel 6450 1850 2    50   Input ~ 0
+A7
+Text GLabel 6450 1950 2    50   Input ~ 0
+A3
+Text GLabel 6450 2050 2    50   Input ~ 0
+A2
+Text GLabel 6450 2150 2    50   Input ~ 0
+A1
+Text GLabel 6450 2250 2    50   Input ~ 0
+A0
+Text GLabel 6450 2950 2    50   Input ~ 0
+FPGA_CLK_50M
+Text GLabel 9700 2450 0    50   Input ~ 0
+ESP_FPGA_CS
+Text GLabel 6450 2650 2    50   Input ~ 0
+CLK
 $EndSCHEMATC

@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name LSF0204PWR)(type KiCad)(uri C:/Projects/PCB/Library/LSF0204PWR)(options "")(descr ""))
+  (lib (name ESP32-WROVER)(type KiCad)(uri C:/Projects/PCB/Library/ESP32-WROVER)(options "")(descr ""))
+  (lib (name Game-Boy-KiCad-Library-master)(type KiCad)(uri C:/Projects/PCB/Library/Game-Boy-KiCad-Library-master)(options "")(descr ""))
+  (lib (name gb_cart_fingers)(type KiCad)(uri C:/Projects/PCB/Library/gb_cart_fingers)(options "")(descr ""))
+  (lib (name LY68L6400SLIT)(type KiCad)(uri C:/Projects/git/gb-cart/Library/LY68L6400SLIT)(options "")(descr ""))
+  (lib (name b240a-13-f)(type KiCad)(uri C:/Projects/git/gb-cart/Library/b240a-13-f)(options "")(descr ""))
+  (lib (name SS8050-G)(type KiCad)(uri C:/Projects/git/gb-cart/Library/SS8050-G)(options "")(descr ""))
+  (lib (name TF-015)(type KiCad)(uri C:/Projects/git/gb-cart/Library/TF-015)(options "")(descr ""))
+)

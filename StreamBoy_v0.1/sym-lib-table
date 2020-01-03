@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name LSF0204PWR)(type Legacy)(uri C:/Projects/PCB/Library/LSF0204PWR/LSF0204PWR.lib)(options "")(descr ""))
+  (lib (name ESP32-WROVER)(type Legacy)(uri C:/Projects/PCB/Library/ESP32-WROVER/ESP32-WROVER.lib)(options "")(descr ""))
+  (lib (name Gameboy)(type Legacy)(uri C:/Projects/PCB/Library/Game-Boy-KiCad-Library-master/Gameboy.lib)(options "")(descr ""))
+  (lib (name gb_cart_fingers)(type Legacy)(uri C:/Projects/PCB/Library/gb_cart_fingers/gb_cart_fingers.lib)(options "")(descr ""))
+  (lib (name LY68L6400SLIT)(type Legacy)(uri C:/Projects/git/gb-cart/Library/LY68L6400SLIT/LY68L6400SLIT.lib)(options "")(descr ""))
+  (lib (name SS8050-G)(type Legacy)(uri C:/Projects/git/gb-cart/Library/SS8050-G/SS8050-G.lib)(options "")(descr ""))
+  (lib (name TF-015)(type Legacy)(uri C:/Projects/git/gb-cart/Library/TF-015/TF-015.lib)(options "")(descr ""))
+)
