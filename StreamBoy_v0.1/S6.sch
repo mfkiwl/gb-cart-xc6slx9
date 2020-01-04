@@ -689,23 +689,23 @@ Text GLabel 6450 3050 2    50   Input ~ 0
 RAM_CLK
 Text GLabel 6450 3150 2    50   Input ~ 0
 RAM_CS
-Text GLabel 6450 3250 2    50   Input ~ 0
+Text GLabel 6450 3550 2    50   Input ~ 0
 RAM_D0
 Text GLabel 6450 3350 2    50   Input ~ 0
 RAM_D1
-Text GLabel 6450 3450 2    50   Input ~ 0
+Text GLabel 6450 3250 2    50   Input ~ 0
 RAM_D2
-Text GLabel 6450 3550 2    50   Input ~ 0
+Text GLabel 6450 3450 2    50   Input ~ 0
 RAM_D3
 Text GLabel 13700 1950 2    50   Input ~ 0
 FPGA_LED1
 Text GLabel 13700 2050 2    50   Input ~ 0
 FPGA_LED2
-Text GLabel 2450 3950 0    50   Input ~ 0
+Text GLabel 2450 4050 0    50   Input ~ 0
 A4
-Text GLabel 2450 3850 0    50   Input ~ 0
+Text GLabel 2450 3950 0    50   Input ~ 0
 A5
-Text GLabel 2450 3750 0    50   Input ~ 0
+Text GLabel 2450 3850 0    50   Input ~ 0
 A6
 Text GLabel 2450 3650 0    50   Input ~ 0
 A8
@@ -867,7 +867,7 @@ Text GLabel 6850 10400 0    50   Input ~ 0
 SUSPEND
 Text Notes 13850 1850 0    50   ~ 0
 Place anywhere
-Text GLabel 6450 1850 2    50   Input ~ 0
+Text GLabel 2450 3750 0    50   Input ~ 0
 A7
 Text GLabel 6450 1950 2    50   Input ~ 0
 A3
