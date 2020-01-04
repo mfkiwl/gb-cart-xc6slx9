@@ -141,7 +141,7 @@ GB_RD
 Text GLabel 3250 1750 2    50   Input ~ 0
 GB_CS
 Text GLabel 3250 4250 2    50   Input ~ 0
-GB_RST
+GB_RSTN
 Text GLabel 3250 4350 2    50   Input ~ 0
 GB_VIN
 Text GLabel 3250 1550 2    50   Input ~ 0
