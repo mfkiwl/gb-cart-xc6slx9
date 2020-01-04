@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:StreamBoy-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -33,7 +32,7 @@ AR Path="/5E0FF68C/5E0DB62B" Ref="C?"  Part="1"
 AR Path="/5E07E0B7/5E0DB62B" Ref="C1"  Part="1" 
 F 0 "C1" H 9965 5196 50  0000 L CNN
 F 1 "0.1uF" H 9965 5105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9888 5000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9888 5000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Shenzhen-SCTF-Elec-S7D50-000000A20F30T_C387131.pdf" H 9850 5150 50  0001 C CNN
 	1    9850 5150
 	1    0    0    -1  
@@ -46,7 +45,7 @@ AR Path="/5E0FF68C/5E0F5C50" Ref="C?"  Part="1"
 AR Path="/5E07E0B7/5E0F5C50" Ref="C2"  Part="1" 
 F 0 "C2" H 10565 5796 50  0000 L CNN
 F 1 "15pF" H 10565 5705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10488 5600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10488 5600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Shenzhen-SCTF-Elec-S7D50-000000A20F30T_C387131.pdf" H 10450 5750 50  0001 C CNN
 	1    10450 5750
 	0    -1   -1   0   
@@ -239,7 +238,7 @@ AR Path="/5E0FF68C/5E102D9F" Ref="C?"  Part="1"
 AR Path="/5E07E0B7/5E102D9F" Ref="C9"  Part="1" 
 F 0 "C9" H 3615 1246 50  0000 L CNN
 F 1 "4.7uF" H 3615 1155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3538 1050 50  0001 C CNN
 F 3 "~" H 3500 1200 50  0001 C CNN
 	1    3500 1200
 	-1   0    0    1   
